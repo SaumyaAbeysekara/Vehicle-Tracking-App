@@ -35,12 +35,8 @@ The Vehicle Tracking App is a comprehensive solution designed for managing and t
 
 ## App Demo
 
-![App Demo](vedio/appVedio.mp4 )
+[![App Demo](https://example.com/path/to/your/app/demo.png)](vedio/appVedio.mp4)
 
-<video width="320" height="240" controls>
-  <source src="vedio/appVedio.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
 
 ## Getting Started
 
