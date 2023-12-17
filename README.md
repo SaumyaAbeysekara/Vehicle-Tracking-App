@@ -1,6 +1,6 @@
 # 🚗 Vehicle Tracking App
 
-![App Demo](link_to_app_demo_gif_or_screenshot)
+![App Demo]
 
 ## Table of Contents
 
@@ -35,9 +35,8 @@ The Vehicle Tracking App is a comprehensive solution designed for managing and t
 
 - **🔓 Unlock Vehicles**: Allow users to unlock vehicles once assigned tasks are completed.
 
-## Screenshots
+## App Demo
 
-Include a few screenshots or GIFs showcasing different aspects of the app, such as the login screen, vehicle registration, driver assignment, and real-time location tracking.
 
 ## Getting Started
 
