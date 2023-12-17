@@ -56,7 +56,7 @@ Ensure you have the following installed:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/vehicle-tracking-app.git
+    git clone https://github.com/SaumyaAbeysekara/vehicle-tracking-app.git
     cd vehicle-tracking-app
     ```
 
