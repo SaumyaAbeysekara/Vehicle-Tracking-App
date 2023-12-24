@@ -32,11 +32,16 @@ The Vehicle Tracking App is a comprehensive solution designed for managing and t
 
 ![Home Page](screenshots/home_page.jpeg)
 
-![Vehicle Managing](screenshots/.png)
+![Vehicle Managing](screenshots/manage_vehicles.jpeg)
 
-![Real-time Map](screenshots/realtime_map.png)
+![Register Page](screenshots/register.jpeg)
 
-![Unlock Vehicles](screenshots/unlock_vehicles.png)
+![Locked Vehicles](screenshots/locked_vehicles.jpeg)
+
+![unlock Vehicles](screenshots/realtime_map.jpeg)
+
+![Real-time Map](screenshots/map.jpeg)
+
 
 ## Getting Started
 
