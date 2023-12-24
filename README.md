@@ -12,7 +12,6 @@
 - [Usage](#usage)
 - [Acknowledgements](#acknowledgements)
 
-
 ## Overview
 
 The Vehicle Tracking App is a comprehensive solution designed for managing and tracking vehicles using Android Studio, Java, Firebase, and ThingSpeak. The app provides a secure login system, allows users to register and manage vehicles, assign vehicles to drivers, and track real-time locations using GPS devices and ThingSpeak integration.
@@ -20,25 +19,24 @@ The Vehicle Tracking App is a comprehensive solution designed for managing and t
 ## Features
 
 - **🔐 User Authentication**: Ensure secure access with a login system to manage user accounts.
-
 - **🚗 Vehicle Registration**: Register and manage vehicle details such as make, model, and registration number.
-
 - **👤 Driver Assignment**: Assign registered vehicles to specific drivers, automatically updating available and locked vehicle lists.
-
 - **🌐 Real-time Data**: Utilize ThingSpeak to track real-time location data obtained from GPS devices attached to vehicles.
-
 - **🗺️ Interactive Map**: View vehicle locations on Google Maps directly from the app.
-
 - **🚦 Vehicle Status**: Easily distinguish between available and locked vehicles based on driver assignments.
-
 - **🔓 Unlock Vehicles**: Allow users to unlock vehicles once assigned tasks are completed.
 
-## App Demo
-[![Watch the video](video/appVedio.mp4)](video/appVedio.mp4)
+## Screenshots
 
-[![App Demo](https://example.com/path/to/your/app/demo.png)](vedio/appVedio.mp4)
+![Login Screen](screenshots/login.png)
 
+![Vehicle Registration](screenshots/vehicle_registration.png)
 
+![Driver Assignment](screenshots/driver_assignment.png)
+
+![Real-time Map](screenshots/realtime_map.png)
+
+![Unlock Vehicles](screenshots/unlock_vehicles.png)
 
 ## Getting Started
 
@@ -87,5 +85,4 @@ Ensure you have the following installed:
 
 - [Firebase](https://firebase.google.com/)
 - [ThingSpeak](https://thingspeak.com/)
-
 
