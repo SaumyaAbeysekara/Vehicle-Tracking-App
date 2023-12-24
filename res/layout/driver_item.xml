@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="6dp"
+    app:cardCornerRadius="10dp"
+    app:cardUseCompatPadding="true">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:background="@drawable/frame1">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:padding="15dp"
+            android:src="@mipmap/ic_launcher"
+            android:layout_centerVertical="true"
+
+            android:id="@+id/img1"
+            />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Drivercode"
+                android:id="@+id/driverCode"
+                android:textSize="25sp"
+                android:layout_toRightOf="@id/img1"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Drivername"
+                android:id="@+id/driverName"
+                android:textSize="25sp"
+                android:layout_toRightOf="@id/img1"
+                android:layout_below="@id/driverCode"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="licenceEX"
+                android:id="@+id/licenceEX"
+                android:textSize="25sp"
+                android:layout_toRightOf="@id/img1"
+                android:layout_below="@id/driverName"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="tp"
+                android:id="@+id/TP"
+                android:textSize="25sp"
+                android:layout_toRightOf="@id/img1"
+                android:layout_below="@id/licenceEX"
+                />
+
+
+
+
+    </RelativeLayout>
+
+
+
+</androidx.cardview.widget.CardView>

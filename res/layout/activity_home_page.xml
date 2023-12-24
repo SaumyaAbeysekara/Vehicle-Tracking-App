@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomePage"
+    android:background="@drawable/back11"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MotoCare  "
+        android:textSize="40dp"
+        android:id="@+id/txt1"
+        android:textColor="#FF3131"
+        android:layout_marginLeft="30dp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif"
+
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Brilliant way to manage your vehicles"
+        android:textSize="23dp"
+        android:layout_marginLeft="25dp"
+        android:id="@+id/txt2"
+        android:textColor="#C21E56"
+        android:layout_below="@id/txt1"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+
+
+
+        />
+
+    <FrameLayout
+        android:id="@+id/vehicleBtn"
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:layout_marginRight="5dp"
+        android:background="#002D62"
+        android:layout_below="@id/txt2"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="50dp"
+        >
+
+        <ImageView
+            android:id="@+id/img10"
+            android:layout_width="match_parent"
+            android:layout_height="172dp"
+            android:src="@drawable/img10"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:gravity="center"
+            android:text="Vehicles"
+            android:textColor="@color/white"
+            android:textSize="28dp"
+            android:textStyle="bold" />
+
+
+
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/lockedBtn"
+        android:layout_width="130dp"
+        android:layout_height="150dp"
+        android:layout_marginRight="20dp"
+        android:background="#6F00FF"
+        android:layout_toRightOf="@id/vehicleBtn"
+        android:layout_below="@id/txt2"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="80dp"
+
+        >
+
+        <ImageView
+            android:id="@+id/img11"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:src="@drawable/baseline_lock_24"
+            android:layout_gravity="bottom"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Locked \nVehicles"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+
+
+
+    </FrameLayout>
+
+
+
+
+
+    <Button
+        android:id="@+id/assignBtn"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:backgroundTint="#000080"
+        android:text="vehicle Assignment"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:layout_below="@id/vehicleBtn"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+
+
+
+        />
+    <Button
+        android:id="@+id/availableBtn"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:backgroundTint="#000080"
+        android:text="Available vehicles"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:layout_below="@id/assignBtn"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+
+        />
+
+
+
+
+
+</RelativeLayout>
