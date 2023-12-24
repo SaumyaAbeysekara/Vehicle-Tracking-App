@@ -28,20 +28,40 @@ The Vehicle Tracking App is a comprehensive solution designed for managing and t
 
 ## Screenshots
 
-![Sign In Screen](screenshots/sign_in.jpeg)
+<details>
+  <summary>Sign In Screen</summary>
+  <img src="screenshots/sign_in.jpeg" alt="Sign In Screen" width="300"/>
+</details>
 
-![Home Page](screenshots/home_page.jpeg)
+<details>
+  <summary>Home Page</summary>
+  <img src="screenshots/home_page.jpeg" alt="Home Page" width="300"/>
+</details>
 
-![Vehicle Managing](screenshots/manage_vehicles.jpeg)
+<details>
+  <summary>Vehicle Managing</summary>
+  <img src="screenshots/manage_vehicles.jpeg" alt="Vehicle Managing" width="300"/>
+</details>
 
-![Register Page](screenshots/register.jpeg)
+<details>
+  <summary>Register Page</summary>
+  <img src="screenshots/register.jpeg" alt="Register Page" width="300"/>
+</details>
 
-![Locked Vehicles](screenshots/locked_vehicles.jpeg)
+<details>
+  <summary>Locked Vehicles</summary>
+  <img src="screenshots/locked_vehicles.jpeg" alt="Locked Vehicles" width="300"/>
+</details>
 
-![unlock Vehicles](screenshots/unlock_vehicles.jpeg)
+<details>
+  <summary>Unlock Vehicles</summary>
+  <img src="screenshots/unlock_vehicles.jpeg" alt="Unlock Vehicles" width="300"/>
+</details>
 
-![Real-time Map](screenshots/map.jpeg)
-
+<details>
+  <summary>Real-time Map</summary>
+  <img src="screenshots/map.jpeg" alt="Real-time Map" width="300"/>
+</details>
 
 ## Getting Started
 
@@ -90,4 +110,3 @@ Ensure you have the following installed:
 
 - [Firebase](https://firebase.google.com/)
 - [ThingSpeak](https://thingspeak.com/)
-
