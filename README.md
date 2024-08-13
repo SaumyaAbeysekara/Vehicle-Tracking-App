@@ -64,7 +64,8 @@ The Vehicle Tracking App is a comprehensive solution designed for managing and t
 </details>
 
 # Demo of the App
-![Demo Video](moto app.mp4)
+![Moto App Demo](./assets/moto%20app.mp4)
+
 
 
 ## Getting Started
